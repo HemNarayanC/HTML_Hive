@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th,td{
+            text-align: center;
+        }
+
+        table{
+            width: 60%;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .blank{
+            writing-mode: vertical-lr;
+            font-size: 20px;
+            border: 3px solid black;
+        }
+
+        #break{
+            letter-spacing: 8px;
+        }
+
+        #period{
+            border-bottom: 4px solid black;
+        }
+
+        .days{
+            border-bottom: 3px solid black;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+        }
+        
+        .brleft{
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+        }
+
+        #mon
+        {
+            border-bottom: 2px solid black;
+        }
+
+        .br_in_right{
+            border-style: dotted;
+            border-right: 3px solid black;
+        }
+
+        .text_border
+        {
+            border-right: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 style="text-align: center; font-family: sans-serif;">TIME TABLE FOR UPPER PRIMARY</h1>
+    <div>
+    <table border="2px">
+        <tr>
+            <th colspan="2">Time</th>
+            <!-- <th></th> -->
+            <th>7:<sup>30</sup>-8:<sup>00</sup></th>
+            <th>8:<sup>00</sup>-8:<sup>30</sup></th>
+            <th>8:<sup>30</sup>-9:<sup>00</sup></th>
+            <th>9:<sup>00</sup>-9:<sup>30</sup></th>
+            <th>9:<sup>30</sup>-10:<sup>00</sup></th>
+            <th>10:<sup>00</sup>-10:<sup>30</sup></th>
+            <th>10:<sup>30</sup>-11:<sup>00</sup></th>
+            <th>11:<sup>00</sup>-11:<sup>30</sup></th>
+            <th>11:<sup>30</sup>-12:<sup>00</sup></th>
+        </tr>
+        <tr>
+            <th colspan="2">Duration</th>
+            <!-- <th></th> -->
+            <th>30m</th>
+            <th>30m</th>
+            <th>30m</th>
+            <th>30m</th>
+            <th>30m</th>
+            <th>30m</th>
+            <th>30m</th>
+            <th>30m</th>
+            <th>30m</th>
+        </tr>
+        <tr id="period">
+            <th colspan="2">Period</th>
+            <!-- <th></th> -->
+            <th>0</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>0</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+        </tr>
+    
+        <!-- Monday -->
+        <tr class="brleft">
+            <th rowspan="3" class="br_in_right">Mon</th>
+            <th style="width: 50px;">4</th>
+            <th rowspan="15" class="blank">Assembly & Registration in Class</th>
+            <td colspan="2" class="text_border">Mathematics</td>
+            <td colspan="2">Akuapem Twi</td>
+            <th rowspan="15" class="blank" id="break">Break</th>
+            <td rowspan="3" class="text_border">Library</td>
+            <td colspan="2">Akuapem Twi</td>
+        </tr>
+        <tr class="brleft">
+            <th>5</th>
+            <td colspan="2" class="text_border">History</td>
+            <td colspan="2" class="text_border">Mathematics</td>
+            <td colspan="2">Science</td>
+            
+        </tr>
+        <tr id="mon" class="brleft">
+            <th>6</th>
+            <td colspan="2" class="text_border">Mathematics</td>
+            <td colspan="2" class="text_border">English Language</td>
+            <td colspan="2">Science</td>
+        </tr>
+        
+        <!-- Tuesday -->
+        <tr class="brleft">
+            <th rowspan="3" id="tues" class="br_in_right">Tues</th>
+            <th>4</th>
+            <td colspan="2" class="text_border">Mathematics</td>
+            <td colspan="2" class="text_border">Science</td>
+            <td class="text_border">Computing</td>
+            <td colspan="2">OWOP</td>
+        </tr>
+        <tr class="brleft">
+            <th>5</th>
+            <td colspan="2" class="text_border">Mathematics</td>
+            <td colspan="2" class="text_border">Akuapem Twi</td>
+            <td class="text_border">English</td>
+            <td colspan="2">OWOP</td>
+        </tr>
+        <tr class="days" class="brleft">
+            <th>6</th>
+            <td colspan="2" class="text_border">History</td>
+            <td colspan="2" class="text_border">Mathematics</td>
+            <td class="text_border">RME</td>
+            <td colspan="2">OWOP</td>
+        </tr>
+
+        <!--Wednesday-->
+        <tr class="brleft">
+            <th rowspan="3" id="wed" class="br_in_right">Wed</th>
+            <th>4</th>
+            <td class="text_border">French</td>
+            <td colspan="2" class="text_border">English Language</td>
+            <td class="text_border">Computing</td>
+            <td class="text_border">Maths</td>
+            <td colspan="2">History</td>
+
+        </tr>
+        <tr class="brleft">
+            <th>5</th>
+            <td class="text_border">Twi</td>
+            <td class="text_border">French</td>
+            <td colspan="2">English Language</td>
+            <td class="text_border">RME</td>
+            <td colspan="2">History</td>
+        </tr>
+        <tr class="days" class="brleft">
+            <th>6</th>
+            <td colspan="2" class="text_border">Mathematics</td>
+            <td colspan="2">Akuapem Twi</td>
+            <td class="text_border">Computing</td>
+            <td colspan="2">History</td>
+        </tr>
+
+        <!--Thursday-->
+        <tr class="brleft">
+            <th rowspan="3" id="thurs" class="br_in_right">Thurs</th>
+            <th>4</th>
+            <td colspan="2" class="text_border">Creative Arts</td>
+            <td colspan="2">History</td>
+            <td class="text_border">English</td>
+            <td colspan="2">Mathematics</td>
+        </tr>
+        <tr class="brleft">
+            <th>5</th>
+            <td colspan="2" class="text_border">Creative Arts</td>
+            <td colspan="2">Science</td>
+            <td class="text_border">OWOP</td>
+            <td colspan="2">Mathematics</td>
+        </tr>
+        <tr class="days" class="brleft">
+            <th>6</th>
+            <td colspan="2" class="text_border">Creative Arts</td>
+            <td colspan="2">English Language</td>
+            <td class="text_border">Twi</td>
+            <td colspan="2">Mathematics</td>
+        </tr>
+
+        <!--Friday-->
+        <tr class="brleft">
+            <th rowspan="3" id="fri" class="br_in_right">Fri</th>
+            <th>4</th>
+            <td colspan="2" class="text_border">English Language</td>
+            <td colspan="2">Mathematics</td>
+            <td class="text_border">RME</td>
+            <td colspan="2">OWOP</td>
+        </tr>
+        <tr class="brleft">
+            <th>5</th>
+            <td colspan="2" class="text_border">English Language</td>
+            <td class="text_border">Twi</td>
+            <td>OWOP</td>
+            <td class="text_border">OWOP</td>
+            <td colspan="2">Mathematics</td>
+        </tr>
+        <tr class="days" class="brleft">
+            <th>6</th>
+            <td class="text_border">English</td>
+            <td colspan="2" class="text_border">OWOP</td>
+            <td>French</td>
+            <td class="text_border">Maths</td>
+            <td colspan="2">Science</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

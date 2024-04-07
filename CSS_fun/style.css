@@ -1,0 +1,21 @@
+#text-format{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+    color: green;
+    text-transform: capitalize;
+    width: 700px;
+    height: 300px;
+    white-space: normal;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-decoration: underline;
+}
+
+.text-shadow{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 6px red;
+    writing-mode: vertical-lr;
+}
